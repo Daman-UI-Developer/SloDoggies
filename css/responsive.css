@@ -1,0 +1,1222 @@
+:root {
+    --primary-color: #258694;
+    --primary-light-color: #00637A1A;
+    --secondary-color: #323232;
+    --text-light-color: #9C9C9C;
+    --white: #fff;
+    --black: #000;
+    --gray-medium: #666666;
+    --border-clr: #949494;
+}
+
+@media only screen and (max-width:1300px) {}
+
+@media only screen and (min-width:1280px) and (max-width:1500px) {}
+
+@media only screen and (min-width:1000px) and (max-width:1279px) {}
+
+@media only screen and (min-width:912px) and (max-width:999px) {}
+
+@media only screen and (min-width:800px) and (max-width:911px) {}
+
+@media only screen and (min-width:768px) and (max-width:799px) {
+    .login-flow-wrp {
+        height: auto;
+
+        .row {
+            width: auto;
+            height: auto;
+        }
+
+        .login-flow-col {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .login-flow-image {
+        height: auto;
+    }
+
+    .login-flow-scroll {
+        height: auto;
+    }
+
+    .login-flow-data {
+        height: auto;
+
+        h1 {
+            font-size: 26px;
+        }
+    }
+
+    .login-flow-wrp.forgot-password-wrp .login-flow-data {
+        padding-top: 1.5rem;
+    }
+
+    .login-flow-data form input.primary-cta {
+        margin-top: 15px;
+    }
+
+    a.back-icon {
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .input-field-code-in {
+        width: 50px;
+        height: 50px;
+    }
+
+    #account-created-success .modal-body {
+        padding: 3rem 1rem;
+    }
+
+    main.page-wrp {
+        height: auto;
+        flex-direction: column;
+        padding: .6rem !important;
+        gap: 10px;
+    }
+
+    nav.sidebar {
+        width: 100%;
+        height: auto;
+        padding: .5rem;
+        border-radius: 10px;
+    }
+
+    section.page-in {
+        width: calc(100% - 0px);
+        height: auto;
+        border-radius: 10px;
+        padding: 0.5rem;
+        overflow: auto;
+    }
+
+    header.page-head {
+        padding: 0.5rem;
+        border-radius: 10px;
+    }
+
+    header.page-head .logo {
+        width: 140px;
+    }
+
+    .head-right-sec {
+        gap: 8px;
+    }
+
+    .settings-dropdown,
+    .notifi-dropdown {
+        width: 370px;
+    }
+
+    .post-head {
+        justify-content: space-between;
+    }
+
+    nav.sidebar .navbar-collapse {
+        height: auto;
+        width: 40%;
+    }
+
+    .navbar-collapse.offcanvas.offcanvas-end .offcanvas-header {
+        width: 100%;
+        justify-content: flex-end;
+        padding: 0;
+    }
+
+    nav.sidebar .navbar-collapse .navbar-nav {
+        padding-right: 0;
+    }
+
+    .navbar-collapse.offcanvas.offcanvas-end .offcanvas-header button.btn-close {
+        filter: invert(0.7);
+        opacity: 1;
+    }
+
+    .post-profile {
+        width: 45px;
+        height: 45px;
+    }
+
+    button.post-field {
+        width: 80%;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    button.post-btn {
+        width: 45px;
+        height: 45px;
+        padding: 8px;
+    }
+
+    .post-top-info {
+        align-items: baseline;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .post-top-data p {
+        font-size: 14px;
+        gap: 5px 20px;
+    }
+
+    .post-top-pro a img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .post-media .carousel {
+        height: 250px;
+    }
+
+    .post-footer {
+
+        ul {
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+    }
+
+    .utility-icon {
+        width: 22px;
+    }
+
+    section.content-wrp.home-page .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    section.content-wrp.home-page .row>* {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .choose-pet label,
+    .choose-pet button.add-pet {
+        width: 14.6%;
+    }
+
+    .choose-pet button.add-pet {
+        padding: 1.2rem;
+    }
+
+    .upload-media-grid-in {
+        width: 73px;
+        height: 73px;
+    }
+
+    .daterangepicker {
+        width: auto;
+    }
+
+    .custom-play-button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .notifi-data {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .notifi-info {
+        width: 57%;
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .notifi-right button.notifi-right-cta {
+        height: 32px;
+        padding: 0 0.8rem;
+        font-size: 14px;
+    }
+
+    .notifi-right-post {
+        width: 40px;
+        height: 40px;
+    }
+
+    .notifi-right {
+        margin-left: auto;
+    }
+
+    .small-modal .modal-body h1 {
+        font-size: 20px;
+    }
+
+    .small-modal .modal-body p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+    .login-flow-wrp {
+        height: auto;
+
+        .row {
+            width: auto;
+            height: auto;
+        }
+
+        .login-flow-col {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .login-flow-image {
+        height: auto;
+    }
+
+    .login-flow-scroll {
+        height: auto;
+    }
+
+    .login-flow-data {
+        height: auto;
+
+        h1 {
+            font-size: 26px;
+        }
+    }
+
+    .login-flow-wrp.forgot-password-wrp .login-flow-data {
+        padding-top: 1.5rem;
+    }
+
+    .login-flow-data form input.primary-cta {
+        margin-top: 15px;
+    }
+
+    a.back-icon {
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .input-field-code-in {
+        width: 50px;
+        height: 50px;
+    }
+
+    #account-created-success .modal-body {
+        padding: 3rem 1rem;
+    }
+
+    main.page-wrp {
+        height: auto;
+        flex-direction: column;
+        padding: .6rem !important;
+        gap: 10px;
+    }
+
+    nav.sidebar {
+        width: 100%;
+        height: auto;
+        padding: .5rem;
+        border-radius: 10px;
+    }
+
+    section.page-in {
+        width: calc(100% - 0px);
+        height: auto;
+        border-radius: 10px;
+        padding: 0.5rem;
+        overflow: auto;
+    }
+
+    header.page-head {
+        padding: 0.5rem;
+        border-radius: 10px;
+    }
+
+    header.page-head .logo {
+        width: 140px;
+    }
+
+    .head-right-sec {
+        gap: 8px;
+    }
+
+    .settings-dropdown,
+    .notifi-dropdown {
+        width: 370px;
+    }
+
+    .post-head {
+        padding: .5rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    nav.sidebar .navbar-collapse {
+        height: auto;
+        width: 60%;
+    }
+
+    .navbar-collapse.offcanvas.offcanvas-end .offcanvas-header {
+        width: 100%;
+        justify-content: flex-end;
+        padding: 0;
+    }
+
+    nav.sidebar .navbar-collapse .navbar-nav {
+        padding-right: 0;
+    }
+
+    .navbar-collapse.offcanvas.offcanvas-end .offcanvas-header button.btn-close {
+        filter: invert(0.7);
+        opacity: 1;
+    }
+
+    .post-profile {
+        width: 45px;
+        height: 45px;
+    }
+
+    button.post-field {
+        width: 71%;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    button.post-btn {
+        width: 45px;
+        height: 45px;
+        padding: 8px;
+    }
+
+    .post-top-info {
+        align-items: baseline;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .post-top-data p {
+        font-size: 14px;
+        gap: 5px 20px;
+    }
+
+    .post-top-pro a img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .post-media .carousel {
+        height: 250px;
+    }
+
+    .post-footer {
+
+        ul {
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+    }
+
+    .utility-icon {
+        width: 22px;
+    }
+
+    section.content-wrp.home-page .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    section.content-wrp.home-page .row>* {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .choose-pet label,
+    .choose-pet button.add-pet {
+        width: 22.3%;
+    }
+
+    .choose-pet button.add-pet {
+        padding: 1.2rem;
+    }
+
+    .upload-media-grid-in {
+        width: 73px;
+        height: 73px;
+    }
+
+    .daterangepicker {
+        width: auto;
+    }
+
+    .custom-play-button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .notifi-data {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .notifi-info {
+        width: 57%;
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .notifi-right button.notifi-right-cta {
+        height: 32px;
+        padding: 0 0.8rem;
+        font-size: 14px;
+    }
+
+    .notifi-right-post {
+        width: 40px;
+        height: 40px;
+    }
+
+    .notifi-right {
+        margin-left: auto;
+    }
+
+    .small-modal .modal-body h1 {
+        font-size: 20px;
+    }
+
+    .small-modal .modal-body p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:390px) and (max-width:479px) {
+    .login-flow-wrp {
+        height: auto;
+
+        .row {
+            width: auto;
+            height: auto;
+        }
+
+        .login-flow-col {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .login-flow-image {
+        height: auto;
+    }
+
+    .login-flow-scroll {
+        height: auto;
+    }
+
+    .login-flow-data {
+        height: auto;
+
+        h1 {
+            font-size: 26px;
+        }
+    }
+
+    .login-flow-wrp.forgot-password-wrp .login-flow-data {
+        padding-top: 1.5rem;
+    }
+
+    .login-flow-data form input.primary-cta {
+        margin-top: 15px;
+    }
+
+    a.back-icon {
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .input-field-code-in {
+        width: 50px;
+        height: 50px;
+    }
+
+    #account-created-success .modal-body {
+        padding: 3rem 1rem;
+    }
+
+    main.page-wrp {
+        height: auto;
+        flex-direction: column;
+        padding: .6rem !important;
+        gap: 10px;
+    }
+
+    nav.sidebar {
+        width: 100%;
+        height: auto;
+        padding: .5rem;
+        border-radius: 10px;
+    }
+
+    section.page-in {
+        width: calc(100% - 0px);
+        height: auto;
+        border-radius: 10px;
+        padding: 0.5rem;
+        overflow: auto;
+    }
+
+    header.page-head {
+        padding: 0.5rem;
+        border-radius: 10px;
+    }
+
+    header.page-head .logo {
+        width: 140px;
+    }
+
+    .head-right-sec {
+        gap: 8px;
+    }
+
+    .settings-dropdown,
+    .notifi-dropdown {
+        width: 370px;
+    }
+
+    .post-head {
+        padding: .5rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    nav.sidebar .navbar-collapse {
+        height: auto;
+    }
+
+    .navbar-collapse.offcanvas.offcanvas-end .offcanvas-header {
+        width: 100%;
+        justify-content: flex-end;
+        padding: 0;
+    }
+
+    nav.sidebar .navbar-collapse .navbar-nav {
+        padding-right: 0;
+    }
+
+    .navbar-collapse.offcanvas.offcanvas-end .offcanvas-header button.btn-close {
+        filter: invert(0.7);
+        opacity: 1;
+    }
+
+    .post-profile {
+        width: 45px;
+        height: 45px;
+    }
+
+    button.post-field {
+        width: 64%;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    button.post-btn {
+        width: 45px;
+        height: 45px;
+        padding: 8px;
+    }
+
+    .post-top-info {
+        align-items: baseline;
+        padding: 0.5rem;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .post-top-data p {
+        font-size: 14px;
+        gap: 5px 20px;
+    }
+
+    .post-top-pro a img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .post-media .carousel {
+        height: 250px;
+    }
+
+    .post-footer {
+        padding: .5rem;
+
+        ul {
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+    }
+
+    .utility-icon {
+        width: 22px;
+    }
+
+    section.content-wrp.home-page .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    section.content-wrp.home-page .row>* {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .choose-pet label,
+    .choose-pet button.add-pet {
+        width: 30%;
+    }
+
+    .choose-pet button.add-pet {
+        padding: 1.2rem;
+    }
+
+    .upload-media-grid-in {
+        width: 73px;
+        height: 73px;
+    }
+
+    .daterangepicker {
+        width: auto;
+    }
+
+    .custom-play-button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .notifi-data {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .notifi-info {
+        width: 57%;
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .notifi-right button.notifi-right-cta {
+        height: 32px;
+        padding: 0 0.8rem;
+        font-size: 14px;
+    }
+
+    .notifi-right-post {
+        width: 40px;
+        height: 40px;
+    }
+
+    .notifi-right {
+        margin-left: auto;
+    }
+
+    .small-modal .modal-body h1 {
+        font-size: 20px;
+    }
+
+    .small-modal .modal-body p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width:389px) {
+    .login-flow-wrp {
+        height: auto;
+
+        .row {
+            width: auto;
+            height: auto;
+        }
+
+        .login-flow-col {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .login-flow-image {
+        height: auto;
+    }
+
+    .login-flow-scroll {
+        height: auto;
+    }
+
+    .login-flow-data {
+        height: auto;
+
+        h1 {
+            font-size: 26px;
+        }
+    }
+
+    .login-flow-wrp.forgot-password-wrp .login-flow-data {
+        padding-top: 1.5rem;
+    }
+
+    .login-flow-data form input.primary-cta {
+        margin-top: 15px;
+    }
+
+    a.back-icon {
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .input-field-code-in {
+        width: 50px;
+        height: 50px;
+    }
+
+    #account-created-success .modal-body {
+        padding: 3rem 1rem;
+    }
+
+    main.page-wrp {
+        height: auto;
+        flex-direction: column;
+        padding: .6rem !important;
+        gap: 10px;
+    }
+
+    nav.sidebar {
+        width: 100%;
+        height: auto;
+        padding: .5rem;
+        border-radius: 10px;
+    }
+
+    section.page-in {
+        width: calc(100% - 0px);
+        height: auto;
+        border-radius: 10px;
+        padding: 0.5rem;
+        overflow: auto;
+    }
+
+    header.page-head {
+        padding: 0.5rem;
+        border-radius: 10px;
+    }
+
+    header.page-head .logo {
+        width: 140px;
+    }
+
+    .head-right-sec {
+        gap: 8px;
+    }
+
+    .settings-dropdown,
+    .notifi-dropdown {
+        width: 339px;
+    }
+
+    .post-head {
+        padding: .5rem;
+        flex-wrap: wrap;
+    }
+
+    nav.sidebar .navbar-collapse {
+        height: auto;
+    }
+
+    .navbar-collapse.offcanvas.offcanvas-end .offcanvas-header {
+        width: 100%;
+        justify-content: flex-end;
+        padding: 0;
+    }
+
+    nav.sidebar .navbar-collapse .navbar-nav {
+        padding-right: 0;
+    }
+
+    .navbar-collapse.offcanvas.offcanvas-end .offcanvas-header button.btn-close {
+        filter: invert(0.7);
+        opacity: 1;
+    }
+
+    .post-profile {
+        width: 45px;
+        height: 45px;
+    }
+
+    button.post-field {
+        width: 80%;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    button.post-btn {
+        width: 100%;
+        height: 45px;
+        padding: 8px;
+    }
+
+    .post-top-info {
+        align-items: baseline;
+        padding: 0.5rem;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .post-top-data p {
+        font-size: 14px;
+        gap: 5px 20px;
+    }
+
+    .post-top-pro a img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .post-top-pro a img.petpro {
+        margin-left: -15px;
+        margin-bottom: -15px;
+    }
+
+    .post-media .carousel {
+        height: 150px;
+    }
+
+    .post-footer {
+        padding: .5rem;
+
+        ul {
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+    }
+
+    .utility-icon {
+        width: 22px;
+    }
+
+    section.content-wrp.home-page .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    section.content-wrp.home-page .row>* {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .choose-pet label,
+    .choose-pet button.add-pet {
+        width: 146px;
+    }
+
+    .choose-pet button.add-pet {
+        padding: 2rem;
+    }
+
+    .upload-media-grid-in {
+        width: 92px;
+        height: 92px;
+    }
+
+    .daterangepicker {
+        width: auto;
+    }
+
+    .custom-play-button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .notifi-data {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .notifi-info {
+        width: 77%;
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .notifi-right button.notifi-right-cta {
+        height: 32px;
+        padding: 0 0.8rem;
+        font-size: 14px;
+    }
+
+    .notifi-right-post {
+        width: 40px;
+        height: 40px;
+    }
+
+    .small-modal .modal-body h1 {
+        font-size: 20px;
+    }
+
+    .small-modal .modal-body p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:359px) {
+
+    .login-flow-wrp {
+        height: auto;
+
+        .row {
+            width: auto;
+            height: auto;
+        }
+
+        .login-flow-col {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .login-flow-image {
+        height: auto;
+    }
+
+    .login-flow-scroll {
+        height: auto;
+    }
+
+    .login-flow-data {
+        height: auto;
+
+        h1 {
+            font-size: 26px;
+        }
+    }
+
+    .login-flow-wrp.forgot-password-wrp .login-flow-data {
+        padding-top: 1.5rem;
+    }
+
+    .login-flow-data form input.primary-cta {
+        margin-top: 15px;
+    }
+
+    a.back-icon {
+        position: relative;
+        top: 0rem;
+        right: 0rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .input-field-code-in {
+        width: 50px;
+        height: 50px;
+    }
+
+    #account-created-success .modal-body {
+        padding: 3rem 1rem;
+    }
+
+    main.page-wrp {
+        height: auto;
+        flex-direction: column;
+        padding: .6rem !important;
+        gap: 10px;
+    }
+
+    nav.sidebar {
+        width: 100%;
+        height: auto;
+        padding: .5rem;
+        border-radius: 10px;
+    }
+
+    section.page-in {
+        width: calc(100% - 0px);
+        height: auto;
+        border-radius: 10px;
+        padding: 0.5rem;
+        overflow: auto;
+    }
+
+    header.page-head {
+        padding: 0.5rem;
+        border-radius: 10px;
+    }
+
+    header.page-head .logo {
+        width: 140px;
+    }
+
+    .head-right-sec {
+        gap: 8px;
+    }
+
+    .settings-dropdown,
+    .notifi-dropdown {
+        width: 299px;
+    }
+
+    .post-head {
+        padding: .5rem;
+        flex-wrap: wrap;
+    }
+
+    nav.sidebar .navbar-collapse {
+        height: auto;
+    }
+
+    .navbar-collapse.offcanvas.offcanvas-end .offcanvas-header {
+        width: 100%;
+        justify-content: flex-end;
+        padding: 0;
+    }
+
+    nav.sidebar .navbar-collapse .navbar-nav {
+        padding-right: 0;
+    }
+
+    .navbar-collapse.offcanvas.offcanvas-end .offcanvas-header button.btn-close {
+        filter: invert(0.7);
+        opacity: 1;
+    }
+
+    .post-profile {
+        width: 45px;
+        height: 45px;
+    }
+
+    button.post-field {
+        width: 204px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    button.post-btn {
+        width: 100%;
+        height: 45px;
+        padding: 8px;
+    }
+
+    .post-top-info {
+        align-items: baseline;
+        padding: 0.5rem;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .post-top-data p {
+        font-size: 14px;
+        gap: 5px 20px;
+    }
+
+    .post-top-pro a img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .post-top-pro a img.petpro {
+        margin-left: -15px;
+        margin-bottom: -15px;
+    }
+
+    .post-media .carousel {
+        height: 150px;
+    }
+
+    .post-footer {
+        padding: .5rem;
+
+        ul {
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+    }
+
+    .utility-icon {
+        width: 22px;
+    }
+
+    .btn-grp {
+        flex-wrap: wrap;
+    }
+
+    section.content-wrp.home-page .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    section.content-wrp.home-page .row>* {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .choose-pet label,
+    .choose-pet button.add-pet {
+        width: 126px;
+    }
+
+    .upload-media-grid-in {
+        width: 79px;
+        height: 79px;
+    }
+
+    .daterangepicker {
+        width: auto;
+    }
+
+    .custom-play-button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .notifi-data {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .notifi-info {
+        width: 77%;
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .notifi-right button.notifi-right-cta {
+        height: 32px;
+        padding: 0 0.8rem;
+        font-size: 14px;
+    }
+
+    .notifi-right-post {
+        width: 40px;
+        height: 40px;
+    }
+
+    .small-modal .modal-body h1 {
+        font-size: 20px;
+    }
+
+    .small-modal .modal-body p {
+        font-size: 16px;
+    }
+}

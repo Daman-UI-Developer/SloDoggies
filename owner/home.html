@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Pet Owner SloDoggies</title>
+    <meta name="description" content="">
+
+    <link rel="icon" href="../fevicon.svg" type="image/svg+xml">
+
+    <!-- CSS -->
+    <link href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css" rel="stylesheet">
+    <link href="../css/animation.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/daterangepicker.css" rel="stylesheet">
+    <link href="../css/responsive.css" rel="stylesheet">
+    <!-- CSS -->
+</head>
+
+<body>
+
+    <main class="page-wrp ps-0">
+        <nav class="navbar navbar-expand-lg sidebar">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse offcanvas offcanvas-end" id="offcanvasNavbar">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <h2>Menu</h2>
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="../owner/home.html">
+                        <img src="../images/side_menu/home.svg" alt="">
+                        <img src="../images/side_menu/home_fill.svg" alt="" class="fill-icon">
+                        Home
+                    </a>
+                    <a class="nav-link" href="../owner/discover.html">
+                        <img src="../images/side_menu/discover.svg" alt="">
+                        <img src="../images/side_menu/discover_fill.svg" alt="" class="fill-icon">
+                        Discover
+                    </a>
+                    <a class="nav-link" href="../owner/messages.html">
+                        <img src="../images/side_menu/messages.svg" alt="">
+                        <img src="../images/side_menu/messages_fill.svg" alt="" class="fill-icon">
+                        Messages
+                    </a>
+                    <a class="nav-link" type="button" data-bs-target="#create-post-event-popup" data-bs-toggle="modal">
+                        <img src="../images/side_menu/create.svg" alt="">
+                        <img src="../images/side_menu/create_fill.svg" alt="" class="fill-icon">
+                        Create
+                    </a>
+                    <a class="nav-link" href="../owner/services.html">
+                        <img src="../images/side_menu/services.svg" alt="">
+                        <img src="../images/side_menu/services_fill.svg" alt="" class="fill-icon">
+                        Services
+                    </a>
+                    <a class="nav-link" href="../owner/my-profile.html">
+                        <img src="../images/side_menu/profile.svg" alt="">
+                        <img src="../images/side_menu/profile_fill.svg" alt="" class="fill-icon">
+                        Profile
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <section class="page-in">
+            <header class="page-head">
+                <div class="logo"><a href="../owner/home.html"><img src="../images/logo.svg" alt=""></a></div>
+                <div class="head-right-sec">
+                    <div class="btn-wrp">
+                        <button type="button" class="dropdown-toggle head-cta" data-bs-toggle="dropdown"
+                            aria-expanded="false" data-bs-auto-close="outside"><img
+                                src="../images/head_notification.svg" alt=""></button>
+                        <div class="notifi-dropdown dropdown-menu dropdown-menu-end">
+                            <h3>Notifications</h3>
+                            <div class="notifi-list-scroll">
+                                <div class="notifi-list">
+                                    <h4>Yesterday</h4>
+                                    <div class="notifi-data">
+                                        <div class="notifi-profile">
+                                            <img src="../images/notifications_pro.svg" alt="" class="single-pro">
+                                            <!-- <img src="../images/notifications_pro.svg" alt="" class="more-pro"> -->
+                                        </div>
+                                        <div class="notifi-info">
+                                            <p>Follow <a href="#">roirin_femlivart2931ec</a> started following you.
+                                                <span class="days">1d</span>
+                                            </p>
+                                        </div>
+                                        <div class="notifi-right">
+                                            <!-- <div class="notifi-right-post">
+                                            <img src="../images/media/1.svg" alt="">
+                                        </div> -->
+                                            <button type="button" class="notifi-right-cta primary-cta">Follow</button>
+                                        </div>
+                                    </div>
+                                    <div class="notifi-data">
+                                        <div class="notifi-profile">
+                                            <img src="../images/popper_icon.svg" alt="" class="event-pro">
+                                            <!-- <img src="../images/notifications_pro.svg" alt="" class="more-pro"> -->
+                                        </div>
+                                        <div class="notifi-info">
+                                            <p><b>Event Saved</b></p>
+                                            <p>
+                                                You’ve marked this event as Interested — we’ll keep you updated! 🐾
+                                                <span class="days">1d</span>
+                                            </p>
+                                        </div>
+                                        <div class="notifi-right">
+                                            <!-- <div class="notifi-right-post">
+                                            <img src="../images/media/1.svg" alt="">
+                                        </div> -->
+                                            <button type="button" class="notifi-right-cta primary-cta">Join
+                                                Chat</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifi-list">
+                                    <h4>This Week</h4>
+                                    <div class="notifi-data">
+                                        <div class="notifi-profile">
+                                            <img src="../images/notifications_pro.svg" alt="" class="single-pro">
+                                            <!-- <img src="../images/notifications_pro.svg" alt="" class="more-pro"> -->
+                                        </div>
+                                        <div class="notifi-info">
+                                            <p>Follow <a href="#">imkirtzxzxza</a>, <a href="#">arus_xsoyal</a>
+                                                and others you know to see their photos and videos. <span
+                                                    class="days">1d</span></p>
+                                        </div>
+                                        <div class="notifi-right">
+                                            <!-- <div class="notifi-right-post">
+                                            <img src="../images/media/1.svg" alt="">
+                                        </div> -->
+                                            <!-- <button type="button" class="notifi-right-cta primary-cta">Follow</button> -->
+                                        </div>
+                                    </div>
+                                    <div class="notifi-data">
+                                        <div class="notifi-profile">
+                                            <img src="../images/notifications_pro.svg" alt="" class="single-pro">
+                                            <!-- <img src="../images/notifications_pro.svg" alt="" class="more-pro"> -->
+                                        </div>
+                                        <div class="notifi-info">
+                                            <p><a href="#">lorem_ipsum</a> is on Instagram. <a href="#">One_more_acc</a>
+                                                and 1 other follow them. <span class="days">3d</span></p>
+                                        </div>
+                                        <div class="notifi-right">
+                                            <!-- <div class="notifi-right-post">
+                                            <img src="../images/media/1.svg" alt="">
+                                        </div> -->
+                                            <button type="button" class="notifi-right-cta primary-cta">Follow</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifi-list">
+                                    <h4>Earlier</h4>
+                                    <div class="notifi-data">
+                                        <div class="notifi-profile">
+                                            <img src="../images/notifications_pro.svg" alt="" class="single-pro">
+                                            <img src="../images/notifications_pro.svg" alt="" class="more-pro">
+                                        </div>
+                                        <div class="notifi-info">
+                                            <p><a href="#">brainmemind</a>, <a href="#">sarakbrl</a> and <a
+                                                    href="#">yashwant_chandel_</a> liked your reel. <span
+                                                    class="days">7w</span></p>
+                                        </div>
+                                        <div class="notifi-right">
+                                            <div class="notifi-right-post">
+                                                <img src="../images/media/1.svg" alt="">
+                                            </div>
+                                            <!-- <button type="button" class="notifi-right-cta primary-cta">Follow</button> -->
+                                        </div>
+                                    </div>
+                                    <div class="notifi-data">
+                                        <div class="notifi-profile">
+                                            <img src="../images/notifications_pro.svg" alt="" class="single-pro">
+                                            <img src="../images/notifications_pro.svg" alt="" class="more-pro">
+                                        </div>
+                                        <div class="notifi-info">
+                                            <p><a href="#">brainmemind</a>, <a href="#">sarakbrl</a> and <a
+                                                    href="#">yashwant_chandel_</a> liked your reel. <span
+                                                    class="days">7w</span></p>
+                                        </div>
+                                        <div class="notifi-right">
+                                            <div class="notifi-right-post">
+                                                <img src="../images/media/1.svg" alt="">
+                                            </div>
+                                            <!-- <button type="button" class="notifi-right-cta primary-cta">Follow</button> -->
+                                        </div>
+                                    </div>
+                                    <div class="notifi-data">
+                                        <div class="notifi-profile">
+                                            <img src="../images/notifications_pro.svg" alt="" class="single-pro">
+                                            <img src="../images/notifications_pro.svg" alt="" class="more-pro">
+                                        </div>
+                                        <div class="notifi-info">
+                                            <p><a href="#">brainmemind</a>, <a href="#">sarakbrl</a> and <a
+                                                    href="#">yashwant_chandel_</a> liked your reel. <span
+                                                    class="days">7w</span></p>
+                                        </div>
+                                        <div class="notifi-right">
+                                            <div class="notifi-right-post">
+                                                <img src="../images/media/1.svg" alt="">
+                                            </div>
+                                            <!-- <button type="button" class="notifi-right-cta primary-cta">Follow</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-wrp">
+                        <button type="button" class="dropdown-toggle head-cta" data-bs-toggle="dropdown"
+                            aria-expanded="false" data-bs-auto-close="outside"><img src="../images/head_settings.svg"
+                                alt=""></button>
+                        <div class="settings-dropdown dropdown-menu dropdown-menu-end">
+                            <h3>Settings</h3>
+                            <ul>
+                                <li><a href="saved-posts.html"><img src="../images/settings/1.svg" alt=""
+                                            class="icon">Saved Posts</a>
+                                </li>
+                                <li><a href="events.html"><img src="../images/settings/2.svg" alt=""
+                                            class="icon">Events</a></li>
+                                <li>
+                                    <div class="notification-toggle form-switch">
+                                        <a href="javascript:void(0);"><img src="../images/settings/3.svg" alt=""
+                                                class="icon"> Notification</a>
+                                        <input class="form-check-input ms-auto" checked type="checkbox" role="switch"
+                                            id="flexSwitchCheckDefault">
+                                    </div>
+                                </li>
+                                <li><a href="about-us.html"><img src="../images/settings/4.svg" alt="" class="icon">
+                                        About Us</a>
+                                </li>
+                                <li><a href="terms-and-conditions.html"><img src="../images/settings/5.svg" alt=""
+                                            class="icon"> Terms & Conditions <i
+                                            class="fa-regular fa-angle-right"></i></a></li>
+                                <li><a href="privacy-policy.html"><img src="../images/settings/6.svg" alt=""
+                                            class="icon">
+                                        Privacy Policy <i class="fa-regular fa-angle-right"></i></a></li>
+                                <li><a href="faq.html"><img src="../images/settings/7.svg" alt="" class="icon"> FAQs</a>
+                                </li>
+                                <li><a href="account-privacy.html"><img src="../images/settings/10.svg" alt=""
+                                            class="icon"> Account Privacy</a></li>
+                                <!-- <li><a href="javascript:void(0);" data-bs-toggle="modal"
+                                        data-bs-target="#delete-ac-popup"><img src="../images/settings/8.svg" alt=""
+                                            class="icon"> Delete Account</a></li> -->
+                                <li><a href="help-and-support.html"><img src="../images/settings/9.svg" alt=""
+                                            class="icon">
+                                        Help & Support</a></li>
+                                <li><a href="javascript:void(0);" data-bs-toggle="modal"
+                                        data-bs-target="#logout-popup"><img src="../images/settings/logout.svg" alt=""
+                                            class="icon">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="content-wrp home-page">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="post-head">
+                            <div class="post-profile">
+                                <img src="../images/user_profile.svg" alt="">
+                            </div>
+                            <button type="button" data-bs-target="#create-post-event-popup" data-bs-toggle="modal"
+                                class="post-field">What’s in your mind?</button>
+                            <button type="button" data-bs-target="#create-post-event-popup" data-bs-toggle="modal"
+                                class="post-btn">
+                                <img src="../images/side_menu/create.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="post-list-wrp">
+                            <!-- POST-BOX -->
+                            <div class="post-main">
+                                <div class="post-top-info">
+                                    <div class="post-top-pro">
+                                        <a href="#">
+                                            <img src="../images/owner_profile.svg" alt="" class="ownerpro">
+                                            <img src="../images/pet_profile.svg" alt="" class="petpro">
+                                        </a>
+                                    </div>
+                                    <div class="post-top-data">
+                                        <p>
+                                            <span>
+                                                <a href="">Lydia Vaccaro</a> with <a href="">Wixx</a>
+                                            </span>
+                                            <button type="button" class="primary-cta">Follow</button>
+                                        </p>
+                                        <div class="post-tag-time">
+                                            <div class="ownertag">Pet Mom</div> <span>5 Min.</span>
+                                        </div>
+                                    </div>
+                                    <div class="post-top-report">
+                                        <button type="button" class="post-top-report-btn dropdown-toggle"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fa-regular fa-ellipsis-vertical"></i>
+                                        </button>
+                                        <div class="post-top-report-dropdown dropdown-menu dropdown-menu-end">
+                                            <button type="button" data-bs-toggle="modal"
+                                                data-bs-target="#report-post-popup">
+                                                <img src="../images/report_icon.svg" alt="">
+                                                Report Post
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-desp">
+                                    <p>🐾 Meet Wixx – our brown bundle of joy! From tail wags to beach days, life
+                                        with this 3-year-old
+                                        pup is pure happiness. He loves chasing waves, long naps in the sun, and of
+                                        course, endless belly rubs.
+                                        Wixx has brought so much joy to our family, and we can’t wait for more
+                                        adventures together! 🐶
+                                        <span>#JimmiTheDog #LifeWithPets #SloDoggiesLove #PetParentGoals
+                                            #DogVibesOnly</span>
+                                    </p>
+                                    <button type="button" class="read-more-less">Read More</button>
+                                </div>
+                                <div class="post-media">
+                                    <div id="post-carousel" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#post-carousel" data-bs-slide-to="0"
+                                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#post-carousel" data-bs-slide-to="1"
+                                                aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#post-carousel" data-bs-slide-to="2"
+                                                aria-label="Slide 3"></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="../images/media/1.svg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="../images/media/2.svg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="../images/media/3.svg" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post-media-tag">
+                                        <p class="sponsored">Sponsored</p>
+                                        <!-- <a href="#">
+                                                Join Community <img src="../images/side_menu/messages.svg" alt="">
+                                            </a> -->
+                                    </div>
+                                </div>
+                                <div class="post-footer">
+                                    <ul>
+                                        <li>
+                                            <label class="utility-icon">
+                                                <input type="checkbox" hidden class="post-like" checked>
+                                                <img src="../images/likepaw.svg" alt="">
+                                                <img src="../images/likepaw_filled.svg" alt="" class="filled">
+                                            </label>
+                                            <span>200</span>
+                                        </li>
+                                        <li>
+                                            <button type="button" class="utility-icon">
+                                                <img src="../images/comment.svg" alt="">
+                                                <img src="../images/comment_filled.svg" alt="" class="filled">
+                                            </button>
+                                            <span>100</span>
+                                        </li>
+                                        <li>
+                                            <button type="button" class="utility-icon">
+                                                <img src="../images/share.svg" alt="">
+                                                <img src="../images/share_filled.svg" alt="" class="filled">
+                                            </button>
+                                            <span>10</span>
+                                        </li>
+                                        <li class="interested">
+                                            <label class="utility-icon">
+                                                <input type="checkbox" hidden class="post-interested" checked>
+                                                <img src="../images/post_save.svg" alt="">
+                                                <img src="../images/post_save_filled.svg" alt="" class="filled">
+                                            </label>
+                                            <!-- <span>Interested</span> -->
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- POST-BOX -->
+                            <!-- POST-BOX -->
+                            <div class="post-main">
+                                <div class="post-top-info">
+                                    <div class="post-top-pro">
+                                        <a href="#">
+                                            <img src="../images/owner_profile.svg" alt="" class="ownerpro">
+                                            <img src="../images/pet_profile.svg" alt="" class="petpro">
+                                        </a>
+                                    </div>
+                                    <div class="post-top-data">
+                                        <p>
+                                            <span>
+                                                <a href="">Lydia Vaccaro</a> with <a href="">Wixx</a>
+                                            </span>
+                                            <button type="button" class="primary-cta">Follow</button>
+                                        </p>
+                                        <div class="post-tag-time">
+                                            <div class="ownertag">Pet Mom</div> <span>5 Min.</span>
+                                        </div>
+                                    </div>
+                                    <div class="post-top-report">
+                                        <button type="button" class="post-top-report-btn dropdown-toggle"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fa-regular fa-ellipsis-vertical"></i>
+                                        </button>
+                                        <div class="post-top-report-dropdown dropdown-menu dropdown-menu-end">
+                                            <button type="button">
+                                                <img src="../images/edit_post_icon.svg" alt="">
+                                                Edit
+                                            </button>
+                                            <button type="button">
+                                                <img src="../images/delete_ac_icon.svg" alt="">
+                                                Delete
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-desp">
+                                    <p>🐾 Meet Wixx – our brown bundle of joy! From tail wags to beach days, life
+                                        with this 3-year-old
+                                        pup is pure happiness. He loves chasing waves, long naps in the sun, and of
+                                        course, endless belly rubs.
+                                        Wixx has brought so much joy to our family, and we can’t wait for more
+                                        adventures together! 🐶
+                                        <span>#JimmiTheDog #LifeWithPets #SloDoggiesLove #PetParentGoals
+                                            #DogVibesOnly</span>
+                                    </p>
+                                    <button type="button" class="read-more-less">Read More</button>
+                                </div>
+                                <div class="post-media">
+                                    <div id="post-carousel-2" class="carousel slide" data-bs-ride="carousel">
+                                        <!-- <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#post-carousel-2"
+                                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                            </div> -->
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="video-container paused">
+                                                    <video poster="../images/media/2.svg">
+                                                        <source src="https://www.w3schools.com/html/mov_bbb.mp4"
+                                                            type="video/mp4" />
+                                                        Your browser does not support the video tag.
+                                                    </video>
+                                                    <div class="custom-play-button">
+                                                        <img src="../images/media/play_icon.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="post-media-tag">
+                                        <p class="sponsored">Sponsored</p>
+                                        <a href="#">
+                                            Join Community <img src="../images/side_menu/messages.svg" alt="">
+                                        </a>
+                                    </div> -->
+                                </div>
+                                <div class="post-footer">
+                                    <ul>
+                                        <li>
+                                            <label class="utility-icon">
+                                                <input type="checkbox" hidden class="post-like" checked>
+                                                <img src="../images/likepaw.svg" alt="">
+                                                <img src="../images/likepaw_filled.svg" alt="" class="filled">
+                                            </label>
+                                            <span>200</span>
+                                        </li>
+                                        <li>
+                                            <button type="button" class="utility-icon">
+                                                <img src="../images/comment.svg" alt="">
+                                                <img src="../images/comment_filled.svg" alt="" class="filled">
+                                            </button>
+                                            <span>100</span>
+                                        </li>
+                                        <li>
+                                            <button type="button" class="utility-icon">
+                                                <img src="../images/share.svg" alt="">
+                                                <img src="../images/share_filled.svg" alt="" class="filled">
+                                            </button>
+                                            <span>10</span>
+                                        </li>
+                                        <li class="interested">
+                                            <label class="utility-icon">
+                                                <input type="checkbox" hidden class="post-interested">
+                                                <img src="../images/post_save.svg" alt="">
+                                                <img src="../images/post_save_filled.svg" alt="" class="filled">
+                                            </label>
+                                            <!-- <span>Interested</span> -->
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- POST-BOX -->
+                            <!-- POST-BOX -->
+                            <div class="post-main">
+                                <div class="post-top-info">
+                                    <div class="post-top-pro">
+                                        <a href="#">
+                                            <img src="../images/owner_profile.svg" alt="" class="ownerpro">
+                                            <!-- <img src="../images/pet_profile.svg" alt="" class="petpro"> -->
+                                        </a>
+                                    </div>
+                                    <div class="post-top-data">
+                                        <p>
+                                            <span>
+                                                <a href="">Lydia Vaccaro</a> with <a href="">Wixx</a>
+                                            </span>
+                                            <button type="button" class="primary-cta">Follow</button>
+                                        </p>
+                                        <div class="post-tag-time">
+                                            <div class="ownertag">Pet Mom</div> <span>5 Min.</span>
+                                        </div>
+                                    </div>
+                                    <div class="post-top-report">
+                                        <button type="button" class="post-top-report-btn dropdown-toggle"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fa-regular fa-ellipsis-vertical"></i>
+                                        </button>
+                                        <div class="post-top-report-dropdown dropdown-menu dropdown-menu-end">
+                                            <button type="button">
+                                                <img src="../images/report_icon.svg" alt="">
+                                                Report Post
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-desp">
+                                    <div class="my-events-info">
+                                        <div class="my-events-info-left">
+                                            <h3>Event Title</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                                sed do eiusmod tempor</p>
+                                            <div class="location"><i class="fa-light fa-location-dot"></i> San Luis
+                                                Obispo County</div>
+                                        </div>
+                                        <div class="my-events-info-right">
+                                            <p><img src="../images/e_date_icon.svg" alt="">05- 25-2025
+                                                4:00 PM</p>
+                                            <p><i class="fa-regular fa-clock"></i> 30 Mins.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-media">
+                                    <div id="post-carousel-2" class="carousel slide" data-bs-ride="carousel">
+                                        <!-- <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#post-carousel-2"
+                                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                            </div> -->
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="../images/media/3.svg" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post-media-tag">
+                                        <!-- <p class="sponsored">Sponsored</p> -->
+                                        <a href="#">
+                                            Join Community <img src="../images/side_menu/messages.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="post-footer">
+                                    <ul>
+                                        <li>
+                                            <label class="utility-icon">
+                                                <input type="checkbox" hidden class="post-like" checked>
+                                                <img src="../images/likepaw.svg" alt="">
+                                                <img src="../images/likepaw_filled.svg" alt="" class="filled">
+                                            </label>
+                                            <span>200</span>
+                                        </li>
+                                        <li>
+                                            <button type="button" class="utility-icon">
+                                                <img src="../images/comment.svg" alt="">
+                                                <img src="../images/comment_filled.svg" alt="" class="filled">
+                                            </button>
+                                            <span>100</span>
+                                        </li>
+                                        <li>
+                                            <button type="button" class="utility-icon">
+                                                <img src="../images/share.svg" alt="">
+                                                <img src="../images/share_filled.svg" alt="" class="filled">
+                                            </button>
+                                            <span>10</span>
+                                        </li>
+                                        <li class="interested">
+                                            <label class="utility-icon">
+                                                <input type="checkbox" hidden class="post-interested">
+                                                <img src="../images/post_save.svg" alt="">
+                                                <img src="../images/post_save_filled.svg" alt="" class="filled">
+                                            </label>
+                                            <!-- <span>Interested</span> -->
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- POST-BOX -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <!-- WELCOME-SLODOGGIES-POPUP -->
+
+    <div class="modal fade small-modal" id="welcome-slodoggies-popup" data-bs-backdrop="static" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body text-center">
+                    <img src="../images/popper_icon.svg" alt="">
+                    <h1>Welcome to SloDoggies!</h1>
+                    <p class="mb-3">You're officially part of the SloDoggies pack! Let's keep the tail wagging!</p>
+                    <button type="button" class="primary-cta w-100 text-center" data-bs-dismiss="modal"
+                        data-bs-toggle="modal" data-bs-target="#add-pet-popup">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WELCOME-SLODOGGIES-POPUP -->
+
+    <!-- CREATE-NEW-POST-EVENT-POPUP -->
+
+    <div class="modal fade medium-modal" id="create-post-event-popup" data-bs-backdrop="static" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body">
+                    <div class="create-post-event-wrp">
+                        <h3>
+                            <span class="post active">Create new post</span>
+                            <span class="event">Create new event</span>
+                        </h3>
+                        <ul class="nav nav-pills mb-0" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-post-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-post" type="button" role="tab" aria-controls="pills-post"
+                                    aria-selected="true">
+                                    Post
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-event-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-event" type="button" role="tab" aria-controls="pills-event"
+                                    aria-selected="false">
+                                    Event
+                                </button>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-post" role="tabpanel"
+                                aria-labelledby="pills-post-tab" tabindex="0">
+                                <div class="create-post-event-in">
+                                    <form action="">
+                                        <label class="heading">Who's this post about?</label>
+                                        <div class="choose-pet">
+                                            <label>
+                                                <img src="../images/pets/1.svg" alt=""> Jimmi
+                                                <input type="radio" value="1" name="pet" hidden checked>
+                                            </label>
+                                            <label>
+                                                <img src="../images/pets/2.svg" alt=""> Barry
+                                                <input type="radio" value="2" name="pet" hidden>
+                                            </label>
+                                            <label>
+                                                <img src="../images/pets/3.svg" alt=""> Billi
+                                                <input type="radio" value="3" name="pet" hidden>
+                                            </label>
+                                            <label>
+                                                <img src="../images/pets/4.svg" alt=""> Julia
+                                                <input type="radio" value="4" name="pet" hidden>
+                                            </label>
+                                            <label>
+                                                <img src="../images/pets/1.svg" alt=""> Barry
+                                                <input type="radio" value="5" name="pet" hidden>
+                                            </label>
+                                            <button type="button" class="add-pet">
+                                                <img src="../images/pets/add_pet_icon.svg" alt="">
+                                            </button>
+                                            <!-- <button type="button" class="add-pet" data-bs-dismiss="modal"
+                                                data-bs-toggle="modal" data-bs-target="#add-pet-popup">
+                                                <img src="../images/pets/add_pet_icon.svg" alt="">
+                                            </button> -->
+                                        </div>
+                                        <label class="heading">Upload Media</label>
+                                        <div class="upload-media-wrp">
+                                            <label>
+                                                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                                                <span>upload Here</span><input type="file" hidden>
+                                            </label>
+                                            <div class="upload-media-grid">
+                                                <div class="upload-media-grid-in">
+                                                    <img src="../images/media/1.svg" alt="">
+                                                    <button class="remove" type="button"><i
+                                                            class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                                <div class="upload-media-grid-in">
+                                                    <img src="../images/media/2.svg" alt="">
+                                                    <button class="remove" type="button"><i
+                                                            class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                                <div class="upload-media-grid-in">
+                                                    <img src="../images/media/3.svg" alt="">
+                                                    <button class="remove" type="button"><i
+                                                            class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                                <div class="upload-media-grid-in for-video">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <img src="../images/media/1.svg" alt="">
+                                                    <button class="remove" type="button"><i
+                                                            class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <label class="heading">Write Post</label>
+                                        <textarea class="description" placeholder="Enter Description"></textarea>
+                                        <label class="heading">Hashtags</label>
+                                        <input type="text" placeholder="Add #tags" class="text-field">
+                                        <label class="heading">Zip Code</label>
+                                        <button type="button" class="current-location">
+                                            <i class="fa-regular fa-location-crosshairs"></i>
+                                            use my current location
+                                        </button>
+                                        <input type="text" placeholder="Enter your Zip Code" class="text-field">
+                                        <label class="heading">Privacy Settings</label>
+                                        <div class="settings-list">
+                                            <label>
+                                                Public <input type="radio" value="1" name="settings" checked>
+                                            </label>
+                                            <label>
+                                                Follwers Only <input type="radio" value="2" name="settings">
+                                            </label>
+                                            <label>
+                                                Private (Only me) <input type="radio" value="3" name="settings">
+                                            </label>
+                                        </div>
+                                        <input type="button" value="Post" class="primary-cta w-100"
+                                            data-bs-dismiss="modal" data-bs-toggle="modal"
+                                            data-bs-target="#post-created-success">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-event" role="tabpanel"
+                                aria-labelledby="pills-event-tab" tabindex="0">
+                                <div class="create-post-event-in">
+                                    <form action="">
+                                        <label class="heading">Upload Media</label>
+                                        <div class="upload-media-wrp">
+                                            <label>
+                                                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                                                <span>upload Here</span><input type="file" hidden>
+                                            </label>
+                                            <div class="upload-media-grid">
+                                                <div class="upload-media-grid-in">
+                                                    <img src="../images/media/1.svg" alt="">
+                                                    <button class="remove" type="button"><i
+                                                            class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                                <div class="upload-media-grid-in">
+                                                    <img src="../images/media/2.svg" alt="">
+                                                    <button class="remove" type="button"><i
+                                                            class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                                <div class="upload-media-grid-in">
+                                                    <img src="../images/media/3.svg" alt="">
+                                                    <button class="remove" type="button"><i
+                                                            class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                                <div class="upload-media-grid-in for-video">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <img src="../images/media/1.svg" alt="">
+                                                    <button class="remove" type="button"><i
+                                                            class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <label class="heading">Event Title</label>
+                                        <input type="text" placeholder="Enter Title" class="text-field">
+                                        <label class="heading">Event Description</label>
+                                        <textarea class="description" placeholder="Enter Description"></textarea>
+                                        <label class="heading">Event Start Date And Time</label>
+                                        <input type="text" name="datetimes" value="" placeholder="Select Date And Time"
+                                            class="text-field">
+                                        <label class="heading">Event End Date And Time</label>
+                                        <input type="text" name="datetimes" value="" placeholder="Select Date And Time"
+                                            class="text-field">
+                                        <label class="heading">Event Duration</label>
+                                        <input type="text" placeholder="Select Duration" class="text-field">
+                                        <label class="heading">Zip Code</label>
+                                        <button type="button" class="current-location">
+                                            <i class="fa-regular fa-location-crosshairs"></i>
+                                            use my current location
+                                        </button>
+                                        <input type="text" placeholder="Enter your Zip Code" class="text-field">
+                                        <label class="heading">Additional Settings</label>
+                                        <div class="settings-list form-switch p-0">
+                                            <p>Enable Comments <input class="form-check-input ms-auto" type="checkbox"
+                                                    role="switch" id="flexSwitchCheckDefault"></p>
+                                        </div>
+                                        <input type="button" value="Post Event" class="primary-cta w-100"
+                                            data-bs-dismiss="modal" data-bs-toggle="modal"
+                                            data-bs-target="#event-created-success">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CREATE-NEW-POST-EVENT-POPUP -->
+
+    <!-- POST-EVENT-CREATED-SUCCESSFULLY-POPUP -->
+
+    <div class="modal fade small-modal" id="post-created-success" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body text-center">
+                    <img src="../images/check_success.svg" alt="">
+                    <h1>Post Uploaded!</h1>
+                    <p>Thanks for keeping your furry friend’s info up to date — we love getting to know them better!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade small-modal" id="event-created-success" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body text-center">
+                    <img src="../images/check_success.svg" alt="">
+                    <h1>Event Created!</h1>
+                    <p>Thanks for keeping your furry friend’s info up to date — we love getting to know them better!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- POST-EVENT-CREATED-SUCCESSFULLY-POPUP -->
+
+    <!-- ADD-PET-POPUP -->
+
+    <div class="modal fade medium-modal" id="add-pet-popup" data-bs-backdrop="static" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-toggle="modal" aria-label="Close"></button>
+                <div class="modal-body">
+                    <div class="create-post-event-wrp skip-wrp">
+                        <h3>Tell us about your pet! <button type="button" class="skip-text" data-bs-toggle="modal"
+                                data-bs-target="#add-your-details-popup">Skip</button></h3>
+                        <div class="create-post-event-in">
+                            <form action="">
+                                <div class="add-photo">
+                                    <div class="pet-photo">
+                                        <img src="../images/default_profile.svg" alt="">
+                                    </div>
+                                    <label class="upload-cta">
+                                        <i class="fa-regular fa-arrow-up-from-bracket"></i>
+                                        <input type="file" hidden>
+                                    </label>
+                                </div>
+                                <label class="heading mt-0 text-center">Add photo</label>
+                                <label class="heading">Pet name</label>
+                                <input type="text" placeholder="Enter Pet Name" class="text-field">
+                                <label class="heading">Pet breed</label>
+                                <input type="text" placeholder="Enter Pet Breed" class="text-field">
+                                <label class="heading">Pet Age</label>
+                                <select class="select-field">
+                                    <option value="0" selected disabled hidden>Enter Pet Age</option>
+                                    <option value="1">0-5 Years</option>
+                                    <option value="2">5-10 Years</option>
+                                    <option value="3">10-20 Years</option>
+                                </select>
+                                <label class="heading">Pet Bio</label>
+                                <input type="text" placeholder="Enter Bio" class="text-field">
+                                <div class="btn-grp mt-4">
+                                    <input type="button" value="Continue" class="non-active-cta w-100"
+                                        data-bs-toggle="modal" data-bs-target="#add-your-details-popup">
+                                    <input type="button" value="Add Pet" class="primary-cta w-100"
+                                        data-bs-dismiss="modal" data-bs-toggle="modal"
+                                        data-bs-target="#pet-added-success">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ADD-PET-POPUP -->
+
+    <!-- PET-ADDED-SUCCESSFULLY-POPUP -->
+
+    <div class="modal fade small-modal" id="pet-added-success" data-bs-backdrop="static" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-toggle="modal" data-bs-target="#add-pet-popup"
+                    aria-label="Close"></button>
+                <!-- <button type="button" class="btn-close" data-bs-toggle="modal" data-bs-target="#create-post-event-popup"
+                    aria-label="Close"></button> -->
+                <div class="modal-body text-center">
+                    <img src="../images/check_success.svg" alt="">
+                    <h1>Pet Added Successfully!</h1>
+                    <p>Thanks for keeping things up to date!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PET-ADDED-SUCCESSFULLY-POPUP -->
+
+    <!-- ADD-YOUR-DETAILS-POPUP -->
+
+    <div class="modal fade medium-modal" id="add-your-details-popup" data-bs-backdrop="static" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-toggle="modal" aria-label="Close"></button>
+                <div class="modal-body">
+                    <div class="create-post-event-wrp">
+                        <h3>Add Your Details</h3>
+                        <div class="create-post-event-in">
+                            <form action="">
+                                <div class="add-photo">
+                                    <div class="pet-photo">
+                                        <img src="../images/default_profile.svg" alt="">
+                                    </div>
+                                    <label class="upload-cta">
+                                        <i class="fa-regular fa-arrow-up-from-bracket"></i>
+                                        <input type="file" hidden>
+                                    </label>
+                                </div>
+                                <label class="heading mt-0 text-center">Add photo</label>
+                                <label class="heading">Name</label>
+                                <input type="text" placeholder="Enter Name" class="text-field">
+                                <label class="heading">Mobile Number</label>
+                                <div class="field-grp">
+                                    <div class="verify-grp">
+                                        <img src="../images/verified_icon.svg" alt="" class="verify-icon">
+                                    </div>
+                                    <input type="text" readonly placeholder="Enter Mobile Number"
+                                        value="+1 (555) 123 456" class="text-field phone-field">
+                                </div>
+                                <label class="heading">Email</label>
+                                <div class="field-grp">
+                                    <div class="verify-grp">
+                                        <img src="../images/verified_icon.svg" alt="" class="verify-icon">
+                                        <button type="button" class="verify-cta">Verify</button>
+                                    </div>
+                                    <input type="text" placeholder="Enter Email" value="merry@slodoggies.com"
+                                        class="text-field">
+                                </div>
+                                <label class="heading">Bio</label>
+                                <input type="text" placeholder="Enter Bio..." class="text-field">
+                                <div class="btn-grp mt-4">
+                                    <input type="button" value="Skip" class="non-active-cta w-100"
+                                        data-bs-dismiss="modal">
+                                    <input type="button" value="Save & Continue" class="primary-cta w-100"
+                                        data-bs-dismiss="modal" data-bs-toggle="modal"
+                                        data-bs-target="#details-added-success">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ADD-YOUR-DETAILS-POPUP -->
+
+    <!-- DETAILS-ADDED-SUCCESSFULLY-POPUP -->
+
+    <div class="modal fade small-modal" id="details-added-success" data-bs-backdrop="static" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-toggle="modal" aria-label="Close"></button>
+                <!-- <button type="button" class="btn-close" data-bs-toggle="modal" data-bs-target="#create-post-event-popup"
+                    aria-label="Close"></button> -->
+                <div class="modal-body text-center">
+                    <img src="../images/check_success.svg" alt="">
+                    <h1>Profile Created!</h1>
+                    <p class="mb-3">Pet’s Name is now officially part of the SloDoggies Pack. Let’s keep the tail
+                        wagging!</p>
+                    <button type="button" class="primary-cta w-100 text-center" data-bs-dismiss="modal">Explore
+                        Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DETAILS-ADDED-SUCCESSFULLY-POPUP -->
+
+    <!-- REPORT-POST-POPUP -->
+
+    <div class="modal fade report-modal" id="report-post-popup" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body p-0">
+                    <div class="create-post-event-wrp">
+                        <h3>Report Post</h3>
+                        <div class="create-post-event-in">
+                            <form action="">
+                                <label class="heading">Why are you reporting this post?</label>
+                                <div class="reporting-list">
+                                    <p>Bullying or unwanted contact</p>
+                                    <p>Violence, hate or exploitation</p>
+                                    <p>False Information</p>
+                                    <p>Scam, fraud or spam</p>
+                                </div>
+                                <label class="heading">Message (Optional)</label>
+                                <textarea class="description" placeholder="Write something here...."></textarea>
+                                <div class="btn-grp mt-4">
+                                    <input type="button" value="Cancel" class="non-active-cta w-100"
+                                        data-bs-dismiss="modal">
+                                    <input type="submit" value="Send report" class="primary-cta w-100">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- REPORT-POST-POPUP -->
+
+    <!-- LOGOUT-POPUP -->
+
+    <div class="modal fade small-modal" id="logout-popup" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body text-center p-4">
+                    <img src="../images/logout_popup_icon.svg" alt="">
+                    <p class="mb-3">Are you sure you want to log out of your account?</p>
+                    <form action="../owner/login.html">
+                        <div class="btn-grp mt-4">
+                            <input type="button" value="Cancel" class="non-active-cta w-100" data-bs-dismiss="modal">
+                            <input type="submit" value="Logout" class="primary-cta w-100">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- LOGOUT-POPUP -->
+
+
+
+    <!-- JS -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/animation.js"></script>
+    <script src="../js/moment.min.js"></script>
+    <script src="../js/daterangepicker.min.js"></script>
+    <script src="../js/custom.js"></script>
+    <!-- JS -->
+</body>
+
+</html>

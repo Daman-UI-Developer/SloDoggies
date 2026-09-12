@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help & Support - SloDoggies</title>
+    <meta name="description" content="">
+
+    <link rel="icon" href="../fevicon.svg" type="image/svg+xml">
+
+    <!-- CSS -->
+    <link href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css" rel="stylesheet">
+    <link href="../css/animation.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/daterangepicker.css" rel="stylesheet">
+    <link href="../css/responsive.css" rel="stylesheet">
+    <!-- CSS -->
+</head>
+
+<body>
+
+    <main class="page-wrp ps-0">
+        <nav class="navbar navbar-expand-lg sidebar">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <h2>Menu</h2>
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="../owner/home.html">
+                        <img src="../images/side_menu/home.svg" alt="">
+                        <img src="../images/side_menu/home_fill.svg" alt="" class="fill-icon">
+                        Home
+                    </a>
+                    <a class="nav-link" href="../owner/discover.html">
+                        <img src="../images/side_menu/discover.svg" alt="">
+                        <img src="../images/side_menu/discover_fill.svg" alt="" class="fill-icon">
+                        Discover
+                    </a>
+                    <a class="nav-link" href="../owner/messages.html">
+                        <img src="../images/side_menu/messages.svg" alt="">
+                        <img src="../images/side_menu/messages_fill.svg" alt="" class="fill-icon">
+                        Messages
+                    </a>
+                    <a class="nav-link" type="button" data-bs-target="#create-post-event-popup" data-bs-toggle="modal">
+                        <img src="../images/side_menu/create.svg" alt="">
+                        <img src="../images/side_menu/create_fill.svg" alt="" class="fill-icon">
+                        Create
+                    </a>
+                    <a class="nav-link" href="../owner/services.html">
+                        <img src="../images/side_menu/services.svg" alt="">
+                        <img src="../images/side_menu/services_fill.svg" alt="" class="fill-icon">
+                        Services
+                    </a>
+                    <a class="nav-link" href="../owner/my-profile.html">
+                        <img src="../images/side_menu/profile.svg" alt="">
+                        <img src="../images/side_menu/profile_fill.svg" alt="" class="fill-icon">
+                        Profile
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <section class="page-in">
+            <header class="page-head">
+                <div class="logo"><a href="../owner/home.html"><img src="../images/logo.svg" alt=""></a></div>
+                <div class="head-right-sec">
+                    <div class="btn-wrp">
+                        <button type="button" class="dropdown-toggle head-cta" data-bs-toggle="dropdown"
+                            aria-expanded="false" data-bs-auto-close="outside"><img
+                                src="../images/head_notification.svg" alt=""></button>
+                        <div class="notifi-dropdown dropdown-menu dropdown-menu-end">
+                            <h3>Notifications</h3>
+                            <div class="notifi-list-scroll">
+                                <div class="notifi-list">
+                                    <h4>Yesterday</h4>
+                                    <div class="notifi-data">
+                                        <div class="notifi-profile">
+                                            <img src="../images/notifications_pro.svg" alt="" class="single-pro">
+                                            <!-- <img src="../images/notifications_pro.svg" alt="" class="more-pro"> -->
+                                        </div>
+                                        <div class="notifi-info">
+                                            <p>Follow <a href="#">roirin_femlivart2931ec</a> started following you.
+                                                <span class="days">1d</span>
+                                            </p>
+                                        </div>
+                                        <div class="notifi-right">
+                                            <!-- <div class="notifi-right-post">
+                                            <img src="../images/media/1.svg" alt="">
+                                        </div> -->
+                                            <button type="button" class="notifi-right-cta primary-cta">Follow</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifi-list">
+                                    <h4>This Week</h4>
+                                    <div class="notifi-data">
+                                        <div class="notifi-profile">
+                                            <img src="../images/notifications_pro.svg" alt="" class="single-pro">
+                                            <!-- <img src="../images/notifications_pro.svg" alt="" class="more-pro"> -->
+                                        </div>
+                                        <div class="notifi-info">
+                                            <p>Follow <a href="#">imkirtzxzxza</a>, <a href="#">arus_xsoyal</a>
+                                                and others you know to see their photos and videos. <span
+                                                    class="days">1d</span></p>
+                                        </div>
+                                        <div class="notifi-right">
+                                            <!-- <div class="notifi-right-post">
+                                            <img src="../images/media/1.svg" alt="">
+                                        </div> -->
+                                            <!-- <button type="button" class="notifi-right-cta primary-cta">Follow</button> -->
+                                        </div>
+                                    </div>
+                                    <div class="notifi-data">
+                                        <div class="notifi-profile">
+                                            <img src="../images/notifications_pro.svg" alt="" class="single-pro">
+                                            <!-- <img src="../images/notifications_pro.svg" alt="" class="more-pro"> -->
+                                        </div>
+                                        <div class="notifi-info">
+                                            <p><a href="#">lorem_ipsum</a> is on Instagram. <a href="#">One_more_acc</a>
+                                                and 1 other follow them. <span class="days">3d</span></p>
+                                        </div>
+                                        <div class="notifi-right">
+                                            <!-- <div class="notifi-right-post">
+                                            <img src="../images/media/1.svg" alt="">
+                                        </div> -->
+                                            <button type="button" class="notifi-right-cta primary-cta">Follow</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifi-list">
+                                    <h4>Earlier</h4>
+                                    <div class="notifi-data">
+                                        <div class="notifi-profile">
+                                            <img src="../images/notifications_pro.svg" alt="" class="single-pro">
+                                            <img src="../images/notifications_pro.svg" alt="" class="more-pro">
+                                        </div>
+                                        <div class="notifi-info">
+                                            <p><a href="#">brainmemind</a>, <a href="#">sarakbrl</a> and <a
+                                                    href="#">yashwant_chandel_</a> liked your reel. <span
+                                                    class="days">7w</span></p>
+                                        </div>
+                                        <div class="notifi-right">
+                                            <div class="notifi-right-post">
+                                                <img src="../images/media/1.svg" alt="">
+                                            </div>
+                                            <!-- <button type="button" class="notifi-right-cta primary-cta">Follow</button> -->
+                                        </div>
+                                    </div>
+                                    <div class="notifi-data">
+                                        <div class="notifi-profile">
+                                            <img src="../images/notifications_pro.svg" alt="" class="single-pro">
+                                            <img src="../images/notifications_pro.svg" alt="" class="more-pro">
+                                        </div>
+                                        <div class="notifi-info">
+                                            <p><a href="#">brainmemind</a>, <a href="#">sarakbrl</a> and <a
+                                                    href="#">yashwant_chandel_</a> liked your reel. <span
+                                                    class="days">7w</span></p>
+                                        </div>
+                                        <div class="notifi-right">
+                                            <div class="notifi-right-post">
+                                                <img src="../images/media/1.svg" alt="">
+                                            </div>
+                                            <!-- <button type="button" class="notifi-right-cta primary-cta">Follow</button> -->
+                                        </div>
+                                    </div>
+                                    <div class="notifi-data">
+                                        <div class="notifi-profile">
+                                            <img src="../images/notifications_pro.svg" alt="" class="single-pro">
+                                            <img src="../images/notifications_pro.svg" alt="" class="more-pro">
+                                        </div>
+                                        <div class="notifi-info">
+                                            <p><a href="#">brainmemind</a>, <a href="#">sarakbrl</a> and <a
+                                                    href="#">yashwant_chandel_</a> liked your reel. <span
+                                                    class="days">7w</span></p>
+                                        </div>
+                                        <div class="notifi-right">
+                                            <div class="notifi-right-post">
+                                                <img src="../images/media/1.svg" alt="">
+                                            </div>
+                                            <!-- <button type="button" class="notifi-right-cta primary-cta">Follow</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-wrp">
+                        <button type="button" class="dropdown-toggle head-cta" data-bs-toggle="dropdown"
+                            aria-expanded="false" data-bs-auto-close="outside"><img src="../images/head_settings.svg"
+                                alt=""></button>
+                        <div class="settings-dropdown dropdown-menu dropdown-menu-end">
+                            <h3>Settings</h3>
+                            <ul>
+                                <li><a href="saved-posts.html"><img src="../images/settings/1.svg" alt=""
+                                            class="icon">Saved Posts</a>
+                                </li>
+                                <li><a href="events.html"><img src="../images/settings/2.svg" alt=""
+                                            class="icon">Events</a></li>
+                                <li>
+                                    <div class="notification-toggle form-switch">
+                                        <a href="javascript:void(0);"><img src="../images/settings/3.svg" alt=""
+                                                class="icon"> Notification</a>
+                                        <input class="form-check-input ms-auto" checked type="checkbox" role="switch"
+                                            id="flexSwitchCheckDefault">
+                                    </div>
+                                </li>
+                                <li><a href="about-us.html"><img src="../images/settings/4.svg" alt="" class="icon">
+                                        About Us</a>
+                                </li>
+                                <li><a href="terms-and-conditions.html"><img src="../images/settings/5.svg" alt=""
+                                            class="icon"> Terms & Conditions <i
+                                            class="fa-regular fa-angle-right"></i></a></li>
+                                <li><a href="privacy-policy.html"><img src="../images/settings/6.svg" alt=""
+                                            class="icon">
+                                        Privacy Policy <i class=" fa-regular fa-angle-right"></i></a></li>
+                                <li><a href="faq.html"><img src="../images/settings/7.svg" alt="" class="icon"> FAQs</a>
+                                </li>
+                                <li><a href="account-privacy.html"><img src="../images/settings/10.svg" alt=""
+                                            class="icon"> Account Privacy</a></li>
+                                <!-- <li><a href="javascript:void(0);" data-bs-toggle="modal"
+                                        data-bs-target="#delete-ac-popup"><img src="../images/settings/8.svg" alt=""
+                                            class="icon"> Delete Account</a></li> -->
+                                <li><a href="help-and-support.html"><img src="../images/settings/9.svg" alt=""
+                                            class="icon">
+                                        Help & Support</a></li>
+                                <li><a href="javascript:void(0);" data-bs-toggle="modal"
+                                        data-bs-target="#logout-popup"><img src="../images/settings/logout.svg" alt=""
+                                            class="icon">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="content-wrp help-support-page">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="data-page">
+                            <h2>Help & Support</h2>
+                            <div class="help-support-in">
+                                <p><b>Need a paw? We're here for you!</b></p>
+                                <p>Whether you're having trouble with your profile, reporting a bug, or just need help
+                                    finding features, our support team is ready to assist.</p>
+                                <ul>
+                                    <li>
+                                        <img src="../images/call_icon.svg" alt="">
+                                        <a href="tel:+1555123456">(555) 123 456</a>
+                                    </li>
+                                    <li>
+                                        <img src="../images/mail_icon.svg" alt="">
+                                        <a href="mailto:help@slodoggies.com">help@slodoggies.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="help-support-in">
+                                <p><b>Need Quick Answers?</b></p>
+                                <p>Check out our <a href="../owner/faq.html">[FAQ section]</a> for common questions
+                                    about using the app,
+                                    managing your account, or promoting your pet business.</p>
+                            </div>
+                            <div class="help-support-in">
+                                <p><b>Feedback & Suggestions</b></p>
+                                <p>We’d love to hear from you! Help us make Slodoggies better by sharing your feedback
+                                    and ideas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <!-- CREATE-NEW-POST-EVENT-POPUP -->
+
+    <div class="modal fade medium-modal" id="create-post-event-popup" data-bs-backdrop="static" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body">
+                    <div class="create-post-event-wrp">
+                        <h3>
+                            <span class="post active">Create new post</span>
+                            <span class="event">Create new event</span>
+                        </h3>
+                        <ul class="nav nav-pills mb-0" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-post-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-post" type="button" role="tab" aria-controls="pills-post"
+                                    aria-selected="true">
+                                    Post
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-event-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-event" type="button" role="tab" aria-controls="pills-event"
+                                    aria-selected="false">
+                                    Event
+                                </button>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-post" role="tabpanel"
+                                aria-labelledby="pills-post-tab" tabindex="0">
+                                <div class="create-post-event-in">
+                                    <form action="">
+                                        <label class="heading">Who's this post about?</label>
+                                        <div class="choose-pet">
+                                            <label>
+                                                <img src="../images/pets/1.svg" alt=""> Jimmi
+                                                <input type="radio" value="1" name="pet" hidden checked>
+                                            </label>
+                                            <label>
+                                                <img src="../images/pets/2.svg" alt=""> Barry
+                                                <input type="radio" value="2" name="pet" hidden>
+                                            </label>
+                                            <label>
+                                                <img src="../images/pets/3.svg" alt=""> Billi
+                                                <input type="radio" value="3" name="pet" hidden>
+                                            </label>
+                                            <label>
+                                                <img src="../images/pets/4.svg" alt=""> Julia
+                                                <input type="radio" value="4" name="pet" hidden>
+                                            </label>
+                                            <label>
+                                                <img src="../images/pets/1.svg" alt=""> Barry
+                                                <input type="radio" value="5" name="pet" hidden>
+                                            </label>
+                                            <button type="button" class="add-pet">
+                                                <img src="../images/pets/add_pet_icon.svg" alt="">
+                                            </button>
+                                            <!-- <button type="button" class="add-pet" data-bs-dismiss="modal"
+                                                data-bs-toggle="modal" data-bs-target="#add-pet-popup">
+                                                <img src="../images/pets/add_pet_icon.svg" alt="">
+                                            </button> -->
+                                        </div>
+                                        <label class="heading">Upload Media</label>
+                                        <div class="upload-media-wrp">
+                                            <label>
+                                                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                                                <span>upload Here</span><input type="file" hidden>
+                                            </label>
+                                            <div class="upload-media-grid">
+                                                <div class="upload-media-grid-in">
+                                                    <img src="../images/media/1.svg" alt="">
+                                                    <button class="remove" type="button"><i
+                                                            class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                                <div class="upload-media-grid-in">
+                                                    <img src="../images/media/2.svg" alt="">
+                                                    <button class="remove" type="button"><i
+                                                            class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                                <div class="upload-media-grid-in">
+                                                    <img src="../images/media/3.svg" alt="">
+                                                    <button class="remove" type="button"><i
+                                                            class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                                <div class="upload-media-grid-in for-video">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <img src="../images/media/1.svg" alt="">
+                                                    <button class="remove" type="button"><i
+                                                            class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <label class="heading">Write Post</label>
+                                        <textarea class="description" placeholder="Enter Description"></textarea>
+                                        <label class="heading">Hashtags</label>
+                                        <input type="text" placeholder="Add #tags" class="text-field">
+                                        <label class="heading">Zip Code</label>
+                                        <button type="button" class="current-location">
+                                            <i class="fa-regular fa-location-crosshairs"></i>
+                                            use my current location
+                                        </button>
+                                        <input type="text" placeholder="Enter your Zip Code" class="text-field">
+                                        <label class="heading">Privacy Settings</label>
+                                        <div class="settings-list">
+                                            <label>
+                                                Public <input type="radio" value="1" name="settings" checked>
+                                            </label>
+                                            <label>
+                                                Follwers Only <input type="radio" value="2" name="settings">
+                                            </label>
+                                            <label>
+                                                Private (Only me) <input type="radio" value="3" name="settings">
+                                            </label>
+                                        </div>
+                                        <input type="button" value="Post" class="primary-cta w-100"
+                                            data-bs-dismiss="modal" data-bs-toggle="modal"
+                                            data-bs-target="#post-created-success">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-event" role="tabpanel"
+                                aria-labelledby="pills-event-tab" tabindex="0">
+                                <div class="create-post-event-in">
+                                    <form action="">
+                                        <label class="heading">Upload Media</label>
+                                        <div class="upload-media-wrp">
+                                            <label>
+                                                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                                                <span>upload Here</span><input type="file" hidden>
+                                            </label>
+                                            <div class="upload-media-grid">
+                                                <div class="upload-media-grid-in">
+                                                    <img src="../images/media/1.svg" alt="">
+                                                    <button class="remove" type="button"><i
+                                                            class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                                <div class="upload-media-grid-in">
+                                                    <img src="../images/media/2.svg" alt="">
+                                                    <button class="remove" type="button"><i
+                                                            class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                                <div class="upload-media-grid-in">
+                                                    <img src="../images/media/3.svg" alt="">
+                                                    <button class="remove" type="button"><i
+                                                            class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                                <div class="upload-media-grid-in for-video">
+                                                    <i class="fa-solid fa-play"></i>
+                                                    <img src="../images/media/1.svg" alt="">
+                                                    <button class="remove" type="button"><i
+                                                            class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <label class="heading">Event Title</label>
+                                        <input type="text" placeholder="Enter Title" class="text-field">
+                                        <label class="heading">Event Description</label>
+                                        <textarea class="description" placeholder="Enter Description"></textarea>
+                                        <label class="heading">Event Start Date And Time</label>
+                                        <input type="text" name="datetimes" value="" placeholder="Select Date And Time"
+                                            class="text-field">
+                                        <label class="heading">Event End Date And Time</label>
+                                        <input type="text" name="datetimes" value="" placeholder="Select Date And Time"
+                                            class="text-field">
+                                        <label class="heading">Event Duration</label>
+                                        <input type="text" placeholder="Select Duration" class="text-field">
+                                        <label class="heading">Zip Code</label>
+                                        <button type="button" class="current-location">
+                                            <i class="fa-regular fa-location-crosshairs"></i>
+                                            use my current location
+                                        </button>
+                                        <input type="text" placeholder="Enter your Zip Code" class="text-field">
+                                        <label class="heading">Additional Settings</label>
+                                        <div class="settings-list form-switch p-0">
+                                            <p>Enable Comments <input class="form-check-input ms-auto" type="checkbox"
+                                                    role="switch" id="flexSwitchCheckDefault"></p>
+                                        </div>
+                                        <input type="button" value="Post Event" class="primary-cta w-100"
+                                            data-bs-dismiss="modal" data-bs-toggle="modal"
+                                            data-bs-target="#event-created-success">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CREATE-NEW-POST-EVENT-POPUP -->
+
+    <!-- POST-EVENT-CREATED-SUCCESSFULLY-POPUP -->
+
+    <div class="modal fade small-modal" id="post-created-success" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body text-center">
+                    <img src="../images/check_success.svg" alt="">
+                    <h1>Post Uploaded!</h1>
+                    <p>Thanks for keeping your furry friend’s info up to date — we love getting to know them better!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade small-modal" id="event-created-success" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body text-center">
+                    <img src="../images/check_success.svg" alt="">
+                    <h1>Event Created!</h1>
+                    <p>Thanks for keeping your furry friend’s info up to date — we love getting to know them better!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- POST-EVENT-CREATED-SUCCESSFULLY-POPUP -->
+
+    <!-- LOGOUT-POPUP -->
+
+    <div class="modal fade small-modal" id="logout-popup" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body text-center p-4">
+                    <img src="../images/logout_popup_icon.svg" alt="">
+                    <p class="mb-3">Are you sure you want to log out of your account?</p>
+                    <form action="../owner/login.html">
+                        <div class="btn-grp mt-4">
+                            <input type="button" value="Cancel" class="non-active-cta w-100" data-bs-dismiss="modal">
+                            <input type="submit" value="Logout" class="primary-cta w-100">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- LOGOUT-POPUP -->
+
+
+
+    <!-- JS -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/animation.js"></script>
+    <script src="../js/moment.min.js"></script>
+    <script src="../js/daterangepicker.min.js"></script>
+    <script src="../js/custom.js"></script>
+    <!-- JS -->
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Your Account - Pet Owner SloDoggies</title>
+    <meta name="description" content="">
+
+    <link rel="icon" href="../fevicon.svg" type="image/svg+xml">
+
+    <!-- CSS -->
+    <link href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css" rel="stylesheet">
+    <link href="../css/animation.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/responsive.css" rel="stylesheet">
+    <!-- CSS -->
+</head>
+
+<body class="login-flow-bdy">
+
+    <!-- LOGIN-FLOW-PAGE -->
+    <div class="login-flow-wrp forgot-password-wrp">
+        <div class="row">
+            <div class="col-lg-8 login-flow-col w-65">
+                <div class="login-flow-image">
+                    <img src="../images/owner/login_flow.svg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 login-flow-col w-35">
+                <div class="login-flow-scroll">
+                    <div class="login-flow-data">
+                        <a href="../owner/forgot-password.html" class="back-icon"><i
+                                class="fa-regular fa-arrow-left"></i></a>
+                        <div class="logo">
+                            <img src="../images/logo.svg" alt="">
+                        </div>
+                        <h1>Verify Your Account</h1>
+                        <p class="text-center">Please enter the 4 digit code sent to <br> <span>example@gmail.com</span>
+                        </p>
+                        <form action="../owner/new-password.html">
+                            <div class="input-multigrp">
+                                <input type="number" class="input-field-code-in inputs" maxlength="1"
+                                    onkeypress="if(this.value.length==1) return false;">
+                                <input type="number" class="input-field-code-in inputs" maxlength="1"
+                                    onkeypress="if(this.value.length==1) return false;">
+                                <input type="number" class="input-field-code-in inputs" maxlength="1"
+                                    onkeypress="if(this.value.length==1) return false;">
+                                <input type="number" class="input-field-code-in inputs" maxlength="1"
+                                    onkeypress="if(this.value.length==1) return false;">
+                            </div>
+                            <input type="submit" value="Verify OTP" class="primary-cta">
+                        </form>
+                        <div class="otp-count">00:20</div>
+                        <div class="ac-switch mt-0">Didn’t receive the code? <a
+                                href="../owner/verify-account.html">Resend</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- LOGIN-FLOW-PAGE -->
+
+    <!-- JS -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/animation.js"></script>
+    <script src="../js/custom.js"></script>
+    <!-- JS -->
+</body>
+
+</html>
